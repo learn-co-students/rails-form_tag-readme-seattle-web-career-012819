@@ -112,3 +112,144 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-25 07:16:53 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/lucysuddenly/.rvm/gems/ruby-2.3.3/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 27ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2019-02-25 07:17:01 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 491ms (Views: 479.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-02-25 07:17:04 -0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-02-25 07:17:04 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2019-02-25 07:17:04 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-02-25 07:17:04 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2019-02-25 07:17:11 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 274ms (Views: 261.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2019-02-25 07:25:06 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 318ms (Views: 305.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Test&post%5Bdescription%5D=Stuff+and+things&authenticity_token=AfbPNfoDxCx9bMVNV42oz1XpB5sF%2FKyOxF0IdA0qa6T4fJrO5fTR2pA%2FQBFHHF6ZDIRNH4XEP2aY046PCDknhQ%3D%3D" for 127.0.0.1 at 2019-02-25 07:25:25 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Test", "description"=>"Stuff and things"}, "authenticity_token"=>"AfbPNfoDxCx9bMVNV42oz1XpB5sF/KyOxF0IdA0qa6T4fJrO5fTR2pA/QBFHHF6ZDIRNH4XEP2aY046PCDknhQ=="}
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 247ms (Views: 238.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Test&post%5Bdescription%5D=Stuff+and+things&authenticity_token=AfbPNfoDxCx9bMVNV42oz1XpB5sF%2FKyOxF0IdA0qa6T4fJrO5fTR2pA%2FQBFHHF6ZDIRNH4XEP2aY046PCDknhQ%3D%3D" for 127.0.0.1 at 2019-02-25 07:25:53 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Test", "description"=>"Stuff and things"}, "authenticity_token"=>"AfbPNfoDxCx9bMVNV42oz1XpB5sF/KyOxF0IdA0qa6T4fJrO5fTR2pA/QBFHHF6ZDIRNH4XEP2aY046PCDknhQ=="}
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 255ms (Views: 245.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2019-02-25 07:26:09 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 299ms (Views: 287.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Test&post%5Bdescription%5D=STuff&authenticity_token=NLgIKOARY2G829oiXp601SkobTrJdhGngI3fnXxpKajNMl3T%2F%2BZ2l1GIX35OD0KDcEUnvklOgk%2FcA1lmeXpliQ%3D%3D" for 127.0.0.1 at 2019-02-25 07:26:16 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Test", "description"=>"STuff"}, "authenticity_token"=>"NLgIKOARY2G829oiXp601SkobTrJdhGngI3fnXxpKajNMl3T/+Z2l1GIX35OD0KDcEUnvklOgk/cA1lmeXpliQ=="}
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 209ms (Views: 202.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=aaa&post%5Bdescription%5D=aaaaaaa&authenticity_token=g0hr2BIuqjOThMHLChiHhKy%2B3q9%2BpiqwsatYIyhTkfF6wj4jDdm%2FxX7XRJcaiXHS9dOUK%2F6euVjtJd7YLUDd0A%3D%3D" for 127.0.0.1 at 2019-02-25 07:40:33 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"aaa", "description"=>"aaaaaaa"}, "authenticity_token"=>"g0hr2BIuqjOThMHLChiHhKy+3q9+piqwsatYIyhTkfF6wj4jDdm/xX7XRJcaiXHS9dOUK/6euVjtJd7YLUDd0A=="}
+  Rendered posts/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 328ms (Views: 315.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2019-02-25 07:40:44 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 279ms (Views: 269.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=aaa&post%5Bdescription%5D=aaaaaa&authenticity_token=NAcKA%2BBsm%2FUP%2B149bBtP51ZaYIqJZtKQ%2BE5QLN1ScH%2FNjV%2F4%2F5uOA%2BKo22F8irmxDzcqDgleQXikwNbX2EE8Xg%3D%3D" for 127.0.0.1 at 2019-02-25 07:40:50 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"aaa", "description"=>"aaaaaa"}, "authenticity_token"=>"NAcKA+Bsm/UP+149bBtP51ZaYIqJZtKQ+E5QLN1ScH/NjV/4/5uOA+Ko22F8irmxDzcqDgleQXikwNbX2EE8Xg=="}
+  Rendered posts/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 284ms (Views: 273.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2019-02-25 07:42:22 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 319ms (Views: 304.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2019-02-25 07:48:57 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 313ms (Views: 300.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2019-02-25 07:49:03 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 283ms (Views: 272.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2019-02-25 07:49:10 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q6f2rGdV6tH8gqWl92bjqEpPd6lWMyqMBxT6Y8T2tzVSLaNXeKL/JxHRIPnn9xX+EyI9LdYLuWRbmnyYweX7FA==", "post"=>{"title"=>"bbbbb", "description"=>"bbbbbbbb"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "bbbbb"], ["description", "bbbbbbbb"], ["created_at", "2019-02-25 15:49:11.167247"], ["updated_at", "2019-02-25 15:49:11.167247"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://127.0.0.1:9393/posts
+Completed 302 Found in 23ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2019-02-25 07:49:12 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 318ms (Views: 304.7ms | ActiveRecord: 0.4ms)
